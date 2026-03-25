@@ -1,0 +1,11 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="22dp" />
+            <solid android:color="#F97316" />
+        </shape>
+    </item>
+    <item android:gravity="center">
+        <inset android:inset="18dp" android:drawable="@android:drawable/sym_action_call" />
+    </item>
+</layer-list>
